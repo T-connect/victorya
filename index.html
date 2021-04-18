@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+  <body>
+      <main>
+    <div class="contaioner-fluid top-container">
+        <div class="container-fluid container-lg p-0 pt-lg-4">
+        <nav class="navbar navbar-expand-lg navbar-light mb-5">
+            <div class="container-fluid">
+              <a class="navbar-brand col-2 fw-bold">Victorya</a>
+              <button class="navbar-toggler align-self-start border-0" type="button" onclick="load()">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse d-flex flex-column flex-lg-row pt-5 pt-lg-0 p-3 p-lg-0 mobile-menu" id="navbarNavDropdown">
+                <ul class="navbar-nav fw-bold pt-4 pt-lg-0">
+                  <li class="nav-item me-5">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">Package</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a class="nav-link" href="#">contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="d-flex flex-column justify-content-center col-12 col-sm-7 col-lg-6  top-header-container">
+              <h1 class="mb-4 top-header">Good food choices are good investments.</h1>
+              <p class="mb-5">There is a powerful need for symbolism, and that means the architecture must have somethimg that appeals to the human heart.</p>
+              <div>
+                  <button type="button" class="btn btn-danger p-3 fw-bold">Order Now</button>
+                  <span class="mx-3">Watch our story</span>
+                  <button type="button" class="btn btn-danger round-btn"><i class="fa fa-play" aria-hidden="true"></i></button>
+              </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="container-fluid p-0">
+          <div class="first-section">
+            <div class="d-flex align-items-center first-row">
+               <div>
+                   <img src="images/px1.jpg" alt="" id="img1">
+               </div>
+               <div class="first-row-right">
+                   <h2 class="mb-4">The best comfort foods will always be greens, cornbread, and fried chicken.</h2>
+                   <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button type="button" class="btn btn-danger p-3 fw-bold">Know More About Us</button>
+               </div>
+            </div>
+
+            <div class="d-flex second-row">
+                <div class="col-12 col-lg-6" id="nd">
+                    <h2 class="mb-4">The best comfort foods will always be greens, cornbread, and fried chicken.</h2>
+                   <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button type="button" class="btn btn-danger p-3 fw-bold">Know More About Us</button>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center col-12 col-lg-6 more">
+                    <div class="me-2 d-flex flex-column align-items-end">
+                        <div class="sm-img mb-2" id="img2">
+                        </div>
+                        <div class="lg-img" id="img3">
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="lg-img" id="img4">
+                        </div>
+                        <div class="sm-img mt-2" id="img5">
+                        </div>
+                    </div>
+                </div>
+              </div>  
+            </div>
+
+          <div class="second-section d-flex flex-column align-items-center justify-content-center">
+             <div class="mt-5 col-12 video-container text-center">
+                <div class="vid-bg">
+                  <video id="vid" width="100%" height="100%" controls loop class="video">
+                    <source src="images/1542975067.mp4">
+                  </video>
+                    <div class="inner-vid-bg w-100 h-100 d-flex align-items-center justify-content-center" id="vid-bg">
+                      <div>
+                      <h3 class="mb-3">When a man's stomach is full it makes no difference whether he is rich or poor</h3>
+                      <p class="mb-3 px-2 px-sm-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <button type="button" class="play-btn mb-3" onclick="playVid()"><i class="fa fa-play"></i></button>
+                      <p>Watch our story</p>
+                      </div>
+                    </div>
+                </div>
+            </div> 
+
+            <div class="d-flex flex-column align-items-center explore-container">
+                <div class="text-center mt-5 mb-5 explore">
+                  <h2 class="mb-3 fw-bold">Explore Our Foods</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>  
+                <div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5">
+                        <div class="col">
+                          <div class="card menu">
+                            <img src="images/food1 (2).jpg" class="card-img-top" alt="...">
+                            <div class="card-body px-4 py-4">
+                              <h4 class="card-title d-flex justify-content-between fw-bold mb-3">Ham Sandwich <span class="price">$10.50</span></h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card menu">
+                            <img src="images/food9.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body px-4 py-4">
+                              <h4 class="card-title d-flex justify-content-between fw-bold mb-3">Ham Sandwich <span class="price">$10.50</span></h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card menu">
+                            <img src="images/food3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body px-4 py-4">
+                              <h4 class="card-title d-flex justify-content-between fw-bold mb-3">Ham Sandwich <span class="price">$10.50</span></h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card menu">
+                            <img src="images/f2.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body px-4 py-4">
+                              <h4 class="card-title d-flex justify-content-between fw-bold mb-3">Ham Sandwich <span class="price">$10.50</span></h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                            <div class="card menu ">
+                              <img src="images/f1.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body px-4 py-4">
+                                <h4 class="card-title d-flex justify-content-between fw-bold mb-3">Ham Sandwich <span class="price">$10.50</span></h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card menu">
+                              <img src="images/food8.jpeg" class="card-img-top" alt="...">
+                              <div class="card-body px-4 py-4">
+                                <h4 class="card-title d-flex justify-content-between fw-bold mb-3">Ham Sandwich <span class="price">$10.50</span></h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <button type="button" class="btn btn-danger mt-5 mb-5 p-3 fw-bold">Explore all food</button>
+            </div>
+            </div>
+           
+           <div class="mt-5">
+            <div>
+                <h1 class="mb-5 text-center fw-bold">Our Popular Recipes</h1>
+            </div>
+            <div>
+                <div class="d-flex recipe-container">
+                    
+                      <div class="recipe me-4 left-recipe">
+                        <div class="recipe-hover d-flex align-items-end h-100">
+                        <div>
+                          <h3 class="mb-3">Crinckle Top Brownies</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <div class="d-flex justify-content-end">
+                          <button type="button" class="btn btn-danger arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                      <div class="recipe middle-recipe middle-recipe1">
+                        <div class="recipe-hover d-flex align-items-end h-100">
+                        <div>
+                          <h3 class="mb-3">Crinckle Top Brownies</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <div class="d-flex justify-content-end">
+                          <button type="button" class="btn btn-danger arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                      <div class="recipe ms-4 middle-recipe middle-recipe2">
+                        <div class="recipe-hover d-flex align-items-end h-100">
+                        <div>
+                          <h3 class="mb-3">Crinckle Top Brownies</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <div class="d-flex justify-content-end">
+                          <button type="button" class="btn btn-danger arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    
+  
+                      <div class="recipe ms-4 right-recipe">
+                        <div class="recipe-hover d-flex align-items-end h-100">
+                         <div>
+                          <h3 class="mb-3">Crinckle Top Brownies</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <div class="d-flex justify-content-end">
+                          <button type="button" class="btn btn-danger arrow right-arrow"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                          </div>
+                         </div>
+                         </div>
+                      </div>
+
+                </div>
+            </div>
+            </div>
+            <div class="footer-container">
+            <div class="container subscribtion-box-container">
+              <div class="subscribtion-box">
+              <h3 class="mb-5">Want to get the latest Updates?</h3>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control border-0" placeholder="example@yourmail.com">
+                <button type="button" class="btn btn-danger rounded-end fw-bold s-b"><span class="sub">Subscribe</span><i class="far fa-paper-plane ms-sm-2"></i></button>
+              </div>
+              </div>
+              <div>
+                  <div class="container-fluid d-flex">
+                      <div class="footer-navbar-nav fw-bold">
+                        <li>
+                          <a class="navbar-brand mt-2 mt-sm-0 me-0 me-sm-5 mb-5 mb-sm-0" href="#" >Victorya</a>
+                        </li>
+                        <li class="me-0 me-sm-3 mb-2 mb-sm-0">
+                          <a class="active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="me-0 me-sm-3 mb-2 mb-sm-0">
+                          <a href="#">Packages</a>
+                        </li>
+                        <li class="me-0 me-sm-3 mb-2 mb-sm-0">
+                          <a href="#">About us</a>
+                        </li>
+                        <li class=" me-0 me-sm-3 mb-2 mb-sm-0">
+                          <a href="#">contact Us</a>
+                        </li>
+                      </div>
+                    </div> 
+
+              <div class="social d-flex mt-4 mb-4 ps-3">
+                <li class="me-3">
+                  <a class="active" href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class=" me-3">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="me-3">
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class=" me-3">
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+               
+              </div>
+              <p class="pb-3 copyright">Copyright&#169;Arifur Rohman, 2019. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <script src="main.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  </body>
+</html>
