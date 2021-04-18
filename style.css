@@ -348,7 +348,7 @@ p, span{
         text-align: center;
         background-color: rgb(231, 242, 250);
         z-index: 1;
-        transition: left 0.8s;
+        transition: left 0.7s;
     }
 
     .show{
