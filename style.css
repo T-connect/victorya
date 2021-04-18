@@ -340,7 +340,7 @@ p, span{
 @media screen and (max-width: 992px){
 
     .navbar{
-        background-color: lightblue;
+        background-color:rgb(231, 242, 250) ;
         position: fixed;
         width: 100vw;
         height: max-content;
@@ -370,7 +370,7 @@ p, span{
         height: calc(100vh - 200px);
         border-radius: 0px 15px 15px 0px;
         text-align: center;
-        background-color: rgb(231, 242, 250);
+        background-color: rgb(255, 255, 255);
         z-index: 1;
         transition: left 1s;
     }
