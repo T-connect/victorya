@@ -343,7 +343,7 @@ p, span{
         background-color: lightblue;
         position: fixed;
         width: 100vw;
-        height: 80px;
+        height: max-content;
         display: flex;
         align-items: center;
         justify-content: center;
